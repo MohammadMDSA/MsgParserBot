@@ -19,6 +19,8 @@ server.post('/api/messages', connector.listen());
 
 let bot = new UniversalBot(connector, [
 	(session) => {
-		session.send('You said: ' + session.message.text);
+		session.send('You said:');
+		session.send(session.message.text);
+		
 	}
 ]);
