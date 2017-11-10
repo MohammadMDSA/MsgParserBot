@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MohammadMDSA/MsgParserBot#readme",
   "dependencies": {
+    "botbuilder": "^3.11.0",
     "restify": "^6.3.2"
   }
 }
