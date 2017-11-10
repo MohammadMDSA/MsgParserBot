@@ -1,6 +1,9 @@
 const restify = require('restify');
 const builder = require('botbuilder');
 const { Message, Prompts, UniversalBot, ChatConnector } = builder;
+const Mongo = require('./MongoInterface');
+
+let db = new Mongo();
 
 const server = restify.createServer();
 server.listen(4000, () => {
