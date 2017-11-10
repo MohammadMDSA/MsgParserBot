@@ -1,0 +1,22 @@
+{
+  "name": "msgparserbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadMDSA/MsgParserBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadMDSA/MsgParserBot/issues"
+  },
+  "homepage": "https://github.com/MohammadMDSA/MsgParserBot#readme",
+  "dependencies": {
+    "restify": "^6.3.2"
+  }
+}
